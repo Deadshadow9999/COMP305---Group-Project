@@ -1,0 +1,869 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16312 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Unity Hub\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/UnityProject/COMP305-Group-Project/Death Warp
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65095
+Successfully changed project path to: E:/UnityProject/COMP305-Group-Project/Death Warp
+E:/UnityProject/COMP305-Group-Project/Death Warp
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path E:/Unity/Unity Hub/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityProject/COMP305-Group-Project/Death Warp/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'E:/Unity/Unity Hub/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Unity Hub/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/Unity Hub/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Unity Hub/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/Unity Hub/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001085 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Domain Reload Profiling:
+	ReloadAssembly (918ms)
+		BeginReloadAssembly (48ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (134ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 39.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Domain Reload Profiling:
+	ReloadAssembly (879ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (706ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 2.739100 ms (FindLiveObjects: 0.185900 ms CreateObjectMapping: 0.046800 ms MarkObjects: 2.449200 ms  DeleteObjects: 0.056200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.042852 seconds 
+  Import took 0.059686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.096014 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3720ddb54cfe73c40b9c4cba2cb32fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3720ddb54cfe73c40b9c4cba2cb32fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e385b95fc3243e2efdae10dacb017e15') in 0.005883 seconds 
+  Import took 0.008720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.924132 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(06aed2acc8b13ed429f1ed89686107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(06aed2acc8b13ed429f1ed89686107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407837c9fa810e70e2f4c29723ff1905') in 0.006080 seconds 
+  Import took 0.008982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.668832 seconds.
+  path: Assets/GrottoEscape2
+  artifactKey: Guid(9080fd9a08cae044ab713fa6c149a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrottoEscape2 using Guid(9080fd9a08cae044ab713fa6c149a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76c6dfdee9b5be0deb41931bcace400') in 0.005024 seconds 
+  Import took 0.007750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.881131 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(dd9ec549f5dc63a4b8c8393f925a588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(dd9ec549f5dc63a4b8c8393f925a588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0deee375c9ca39448cab683ae5ae7e55') in 0.004603 seconds 
+  Import took 0.007417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.460964 seconds.
+  path: Assets/Imports/GrottoEscape2/Scenes
+  artifactKey: Guid(a13c8f9f8b49949dfbb024f670574024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/Scenes using Guid(a13c8f9f8b49949dfbb024f670574024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5edc6e0698fba0d7af4755d8fedd88') in 0.004547 seconds 
+  Import took 0.007893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.497246 seconds.
+  path: Assets/Imports/GrottoEscape2/Scenes/demo.unity
+  artifactKey: Guid(9da9a851aefca4876973ae6ce3673604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/Scenes/demo.unity using Guid(9da9a851aefca4876973ae6ce3673604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7878ad037c3453eb4e143112da78a0') in 0.005041 seconds 
+  Import took 0.007811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.106009 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(06aed2acc8b13ed429f1ed89686107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(06aed2acc8b13ed429f1ed89686107f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec2813cbf3d81dce2131f21596dd220') in 0.001753 seconds 
+  Import took 0.004783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.456472 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(08830b304e69f4a48b90b1364c32eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(08830b304e69f4a48b90b1364c32eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5304878612f1080a1b6171664380c9c9') in 0.005022 seconds 
+  Import took 0.007961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(08830b304e69f4a48b90b1364c32eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(08830b304e69f4a48b90b1364c32eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5304878612f1080a1b6171664380c9c9') in 0.001491 seconds 
+  Import took 0.004001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.042476 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(7d89f709cc45d444da2cda9ce37ba20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(7d89f709cc45d444da2cda9ce37ba20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a84572c036cfd5f2c2d1af7fb51220') in 0.005533 seconds 
+  Import took 0.008750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.675322 seconds.
+  path: Assets/Tiles
+  artifactKey: Guid(87634480f2ec33c43955d26b5da9ee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles using Guid(87634480f2ec33c43955d26b5da9ee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62407c1c8b0da368fcd5682ffab7274') in 0.004733 seconds 
+  Import took 0.007784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.549731 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork
+  artifactKey: Guid(1fdf3cb5645214d3a93db09d9eb6f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork using Guid(1fdf3cb5645214d3a93db09d9eb6f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e48b3f12efebf86a7977f224de59d06') in 0.005039 seconds 
+  Import took 0.007851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044942 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/environment-PREVIEW.png
+  artifactKey: Guid(16449820db2454d91b2b02760330b472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/environment-PREVIEW.png using Guid(16449820db2454d91b2b02760330b472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87972b837f7985260eae297184ba1379') in 0.128837 seconds 
+  Import took 0.131751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.402910 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/animations
+  artifactKey: Guid(56759cf3075f94f4e9e2630f1fd91bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/animations using Guid(56759cf3075f94f4e9e2630f1fd91bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0509b586155c5e8d82045892597f4f4f') in 0.005152 seconds 
+  Import took 0.008040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.406958 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles
+  artifactKey: Guid(dfe3e33cffd344595afc455faf1442bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles using Guid(dfe3e33cffd344595afc455faf1442bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eab9e219bc46129cebb388736c97bb0') in 0.004986 seconds 
+  Import took 0.008251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047581 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/column.png
+  artifactKey: Guid(522657cc4e0e046509cca71e6138b086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/column.png using Guid(522657cc4e0e046509cca71e6138b086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2ca8e88aba9a80e72c4ab73bc5b7b3') in 0.011350 seconds 
+  Import took 0.014257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-top-right.png
+  artifactKey: Guid(6b47b45c5b6f24449a9b497afe1233f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-top-right.png using Guid(6b47b45c5b6f24449a9b497afe1233f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967fbb052a72ae8cd18dcc4d90050aa1') in 0.009608 seconds 
+  Import took 0.012040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ladder.png
+  artifactKey: Guid(8c69bcb5689d74933bda81b62a951af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ladder.png using Guid(8c69bcb5689d74933bda81b62a951af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df40dd902da81be646b510c6f2171548') in 0.200712 seconds 
+  Import took 0.204246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/tree-leaves-liana.png
+  artifactKey: Guid(644d53e403e404f2b8491d68f6d0eda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/tree-leaves-liana.png using Guid(644d53e403e404f2b8491d68f6d0eda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42604fc7393f92539c1d16838646cf9') in 0.009732 seconds 
+  Import took 0.012528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/totem.png
+  artifactKey: Guid(7badef48aec5c41f4bd302ed4df6b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/totem.png using Guid(7badef48aec5c41f4bd302ed4df6b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ceb70b04db9bd39d63f6a9730af9309') in 0.010299 seconds 
+  Import took 0.012728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-right.png
+  artifactKey: Guid(7cf97764f6d6f42258b7e4f101bfd548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-right.png using Guid(7cf97764f6d6f42258b7e4f101bfd548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b5362b0c501827b6f5aa7767c6d4ae') in 0.009398 seconds 
+  Import took 0.011815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-2-big.png
+  artifactKey: Guid(ac895b76dd2c349e6970a203fb2bc226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-2-big.png using Guid(ac895b76dd2c349e6970a203fb2bc226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235956280c82e53f2d32d6959f5c33b7') in 0.012430 seconds 
+  Import took 0.014958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-top-left.png
+  artifactKey: Guid(7f7502c0c14214d2cb5941ae3c74d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-top-left.png using Guid(7f7502c0c14214d2cb5941ae3c74d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480e19926ee52c9dcb3b5cd2146ab9aa') in 0.009364 seconds 
+  Import took 0.012241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-1.png
+  artifactKey: Guid(1a5f0922172f142f4b1f5b5b94c4f221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-1.png using Guid(1a5f0922172f142f4b1f5b5b94c4f221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75c4282f05ce1be09ae16367d8552cb') in 0.009817 seconds 
+  Import took 0.012263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-top-1.png
+  artifactKey: Guid(00b8894b0b9dd4f45a09bce516d93129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-top-1.png using Guid(00b8894b0b9dd4f45a09bce516d93129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da4f6585175e5cf2a6b1ccfe71f411d') in 0.009977 seconds 
+  Import took 0.012434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-water.png
+  artifactKey: Guid(547e8c4738342416d8e8ce0f2cb4e28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-water.png using Guid(547e8c4738342416d8e8ce0f2cb4e28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de178ab00bc13a08600b813914606929') in 0.017798 seconds 
+  Import took 0.020233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/spider-web.png
+  artifactKey: Guid(56d2f4e917f144b62955cc353b5a397e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/spider-web.png using Guid(56d2f4e917f144b62955cc353b5a397e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d8a4395ecd7dacc3a6126e48b53294') in 0.010962 seconds 
+  Import took 0.013788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-bottom-1.png
+  artifactKey: Guid(c39265a0d5c374f5ba0e1d713f131a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-bottom-1.png using Guid(c39265a0d5c374f5ba0e1d713f131a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb6d037d3f087e63060baec60817813') in 0.008183 seconds 
+  Import took 0.011045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/snake-body-long.png
+  artifactKey: Guid(609996526252040e0b9e8df823f9a4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/snake-body-long.png using Guid(609996526252040e0b9e8df823f9a4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed8089a44aaf23054c060ec848be0f8') in 0.009111 seconds 
+  Import took 0.011647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-left-1.png
+  artifactKey: Guid(ebcb0f73835e44d5e9f70188cd1d6973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-left-1.png using Guid(ebcb0f73835e44d5e9f70188cd1d6973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61665dec11fae74d167bdbf10d419fc7') in 0.008218 seconds 
+  Import took 0.010759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/snake-head.png
+  artifactKey: Guid(097b6c6ad7e004e2998899d837ab21db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/snake-head.png using Guid(097b6c6ad7e004e2998899d837ab21db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e6eb9b12a9a22b5451521ce0ed1235') in 0.008310 seconds 
+  Import took 0.010834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/lava-solid.png
+  artifactKey: Guid(2e8ddb293ad554e209ae89e7cda9744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/lava-solid.png using Guid(2e8ddb293ad554e209ae89e7cda9744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06972582852e77ac29c4eb2d4806edde') in 0.007284 seconds 
+  Import took 0.010261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-block-corner.png
+  artifactKey: Guid(53091b63415e74636b32a2c067fc9de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-block-corner.png using Guid(53091b63415e74636b32a2c067fc9de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5913c1c71f63656bd3a90d494459c938') in 0.008894 seconds 
+  Import took 0.012326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-top-right.png
+  artifactKey: Guid(ac322653ab8654345849494bf64c5fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-top-right.png using Guid(ac322653ab8654345849494bf64c5fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f106204ebb94a2217c734b52b1622796') in 0.008361 seconds 
+  Import took 0.011207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-4-plant-10.png
+  artifactKey: Guid(338234e67d2f84aaf8055045c7194360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-4-plant-10.png using Guid(338234e67d2f84aaf8055045c7194360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a190c4b94a184b2a490b32ba9c5eae2f') in 0.007693 seconds 
+  Import took 0.010170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-big-lava.png
+  artifactKey: Guid(f436b1d58f44f454683dbda6b45a71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-big-lava.png using Guid(f436b1d58f44f454683dbda6b45a71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67330d24c5fcc8e0645ba3fef0a18fce') in 0.008495 seconds 
+  Import took 0.011083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-4-plant.png
+  artifactKey: Guid(349ea8bf5fe13456b84cb46d5acf179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-4-plant.png using Guid(349ea8bf5fe13456b84cb46d5acf179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f960fbe000f6b2a9f03a1334e5d65d6') in 0.140044 seconds 
+  Import took 0.142548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-block-slim.png
+  artifactKey: Guid(a3d5e47c4142747ac9a612a78f0a37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-block-slim.png using Guid(a3d5e47c4142747ac9a612a78f0a37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38eed236e7f5906d2b8c48d63e3ebafb') in 0.009324 seconds 
+  Import took 0.011849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-top-1.png
+  artifactKey: Guid(3da81aa6ffa304f08b17342553cca094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-top-1.png using Guid(3da81aa6ffa304f08b17342553cca094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab03b940b40475341f0f57e91289f3d') in 0.008590 seconds 
+  Import took 0.010968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/plant-3.png
+  artifactKey: Guid(2118fdba3c12d4df5ad8ce356e1ea12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/plant-3.png using Guid(2118fdba3c12d4df5ad8ce356e1ea12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f582e118224c92c27f1e19470a1f1e60') in 0.008410 seconds 
+  Import took 0.010881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-block-small.png
+  artifactKey: Guid(1d208a2323e094e399fc54e121ca80a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-block-small.png using Guid(1d208a2323e094e399fc54e121ca80a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a55bcc86a9e5fbbb5d77c335b6b4f6') in 0.007717 seconds 
+  Import took 0.010442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rock-head.png
+  artifactKey: Guid(fb319e1f23c644278ab462b6858a728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rock-head.png using Guid(fb319e1f23c644278ab462b6858a728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40f8be6c9e002d8e66b33636a25eb46') in 0.008660 seconds 
+  Import took 0.011738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-tile-1.png
+  artifactKey: Guid(540fd866a93b04bd480a971fc84d6c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-tile-1.png using Guid(540fd866a93b04bd480a971fc84d6c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c148b9c9c15b4dda5a3296d40cade63c') in 0.008148 seconds 
+  Import took 0.011003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-3.png
+  artifactKey: Guid(11586d7f3652f478187beffbb8f7f18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-3.png using Guid(11586d7f3652f478187beffbb8f7f18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cf92482c7839b358eff6ec50df56e7') in 0.007349 seconds 
+  Import took 0.009854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-bottom-2.png
+  artifactKey: Guid(290163f7ebe07483bb1287fd3a442d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-bottom-2.png using Guid(290163f7ebe07483bb1287fd3a442d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c51b02f7fec0a6ee79173e7facd103') in 0.007696 seconds 
+  Import took 0.010585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-bottom-right.png
+  artifactKey: Guid(d573323def176469c8c39c9078883a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-bottom-right.png using Guid(d573323def176469c8c39c9078883a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afea3cd9912ac10be8ba3428fcf98f99') in 0.008763 seconds 
+  Import took 0.011251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-2-big-lava.png
+  artifactKey: Guid(ee6a1c633bfe540d6a79f5d6a57400fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-2-big-lava.png using Guid(ee6a1c633bfe540d6a79f5d6a57400fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2672f0eb119edb498deefca088eef91f') in 0.007648 seconds 
+  Import took 0.010040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-big-2-plants.png
+  artifactKey: Guid(b117ef755f63348c0975ce7d4ace22ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-big-2-plants.png using Guid(b117ef755f63348c0975ce7d4ace22ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0894755e82bfa7eefceb6e326e55cc') in 0.008352 seconds 
+  Import took 0.011289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/small-plant.png
+  artifactKey: Guid(6b21b4589294a4912b5f9d91f1c6e461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/small-plant.png using Guid(6b21b4589294a4912b5f9d91f1c6e461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42442dd15cd0781fafde9a33a3c609f7') in 0.008441 seconds 
+  Import took 0.011389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/small-grass.png
+  artifactKey: Guid(bede4edbac2d44d67bd611cca8c1abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/small-grass.png using Guid(bede4edbac2d44d67bd611cca8c1abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116243e3b526bf4b5822f26bf103a4b6') in 0.009108 seconds 
+  Import took 0.012411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-bottom-plants-short.png
+  artifactKey: Guid(22ee2ed3c12424226993c27f44701c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-bottom-plants-short.png using Guid(22ee2ed3c12424226993c27f44701c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5cd3a7ddec3ee57184372e605c57db') in 0.008267 seconds 
+  Import took 0.011101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/snake-body-vertical.png
+  artifactKey: Guid(1b082903cae894c8aa2dcb1e6cf1ed8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/snake-body-vertical.png using Guid(1b082903cae894c8aa2dcb1e6cf1ed8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f97eaaf288e61b52fd0dcc41e4a212') in 0.008773 seconds 
+  Import took 0.011189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-bottom-left.png
+  artifactKey: Guid(df37effeb031149fba46c625c75c2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-bottom-left.png using Guid(df37effeb031149fba46c625c75c2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd795d387bd7b7fb376852680655cd675') in 0.008249 seconds 
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-left-2.png
+  artifactKey: Guid(8dbe2e7e770284bb3bb25b2d310f291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-left-2.png using Guid(8dbe2e7e770284bb3bb25b2d310f291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c372117fa492dd9828029b51785f5c') in 0.007793 seconds 
+  Import took 0.010778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-left.png
+  artifactKey: Guid(9118a1091e8a647c3b580dc41ce854fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-left.png using Guid(9118a1091e8a647c3b580dc41ce854fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ed3c874d1526a241b9cb1d5ed0fa8e') in 0.007562 seconds 
+  Import took 0.010322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-top-2.png
+  artifactKey: Guid(2f46f8e4501c747bfb06755a93f2614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-top-2.png using Guid(2f46f8e4501c747bfb06755a93f2614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e774a1644910f8ff27cc66b6bfbb317f') in 0.007861 seconds 
+  Import took 0.010448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-top-2.png
+  artifactKey: Guid(56b0b71fd93f540f2930f74fe6b0b3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-top-2.png using Guid(56b0b71fd93f540f2930f74fe6b0b3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e17517c9c7cd5c8d899c19913c1eca5') in 0.008762 seconds 
+  Import took 0.011682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-2.png
+  artifactKey: Guid(67870ec34a55242b892ca567a8efd904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-2.png using Guid(67870ec34a55242b892ca567a8efd904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f479f43a9df76f25c5f0ab940e082d48') in 0.008528 seconds 
+  Import took 0.011416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-2-plant.png
+  artifactKey: Guid(e5ded6d7962a44cf1804f61d5717a4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-2-plant.png using Guid(e5ded6d7962a44cf1804f61d5717a4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06350430e0a201b8d8f3d88393cdb4ea') in 0.008219 seconds 
+  Import took 0.010663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/floor-big-plants.png
+  artifactKey: Guid(7508a59f335364f6eb33805795480491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/floor-big-plants.png using Guid(7508a59f335364f6eb33805795480491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4933a269d244c444f041fe92d4ae62d') in 0.009081 seconds 
+  Import took 0.011465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-bottom-right.png
+  artifactKey: Guid(521287544ceb1460b82866ffdb999249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-bottom-right.png using Guid(521287544ceb1460b82866ffdb999249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a04af9453c6e92f04a29ab734b01c7') in 0.008858 seconds 
+  Import took 0.011412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-tile-2.png
+  artifactKey: Guid(13fe9d182229f4b07b547d22160beb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-tile-2.png using Guid(13fe9d182229f4b07b547d22160beb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb237783494ddf19f755d4765f51dd1') in 0.008288 seconds 
+  Import took 0.010812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/plant-4.png
+  artifactKey: Guid(748105dd9563e499fa0918cdc058c859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/plant-4.png using Guid(748105dd9563e499fa0918cdc058c859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf40a13b88d7cae5fef2758f63999ff') in 0.007779 seconds 
+  Import took 0.010581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-4.png
+  artifactKey: Guid(92b178895b98346c39674fb8b9843571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-4.png using Guid(92b178895b98346c39674fb8b9843571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be67c9564457c2d7add3c1a219946aad') in 0.007772 seconds 
+  Import took 0.010216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/spikes-top.png
+  artifactKey: Guid(9170906372345485595c34d5dee2d45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/spikes-top.png using Guid(9170906372345485595c34d5dee2d45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf78b26e17b5800b8c0c1ffd14e2cb4') in 0.009303 seconds 
+  Import took 0.011863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/stairs-1.png
+  artifactKey: Guid(9bcca9bfd217e4589b6ae957492178fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/stairs-1.png using Guid(9bcca9bfd217e4589b6ae957492178fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813f6d98468666ffb7d371bb5a237d72') in 0.007393 seconds 
+  Import took 0.009930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/stairs-2.png
+  artifactKey: Guid(435cb03ecae504b169aa3a7cfdfb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/stairs-2.png using Guid(435cb03ecae504b169aa3a7cfdfb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e8d978a48ea755f6afa7683360aadd') in 0.007487 seconds 
+  Import took 0.010183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/tree-leaves-end.png
+  artifactKey: Guid(3e7cb8377b05d4d3695485984434ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/tree-leaves-end.png using Guid(3e7cb8377b05d4d3695485984434ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2903f4191ebb9dc29c63ebc3581e8c87') in 0.007458 seconds 
+  Import took 0.009987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/tree-leaves-tile.png
+  artifactKey: Guid(6e6fe28f400ac414a9aa16fc2311d08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/tree-leaves-tile.png using Guid(6e6fe28f400ac414a9aa16fc2311d08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bedb9ecaf17be89ced6ea6bfad7e52') in 0.008623 seconds 
+  Import took 0.011144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/plant-2.png
+  artifactKey: Guid(acbc6c67d7e9f48b5be2d68209cd9bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/plant-2.png using Guid(acbc6c67d7e9f48b5be2d68209cd9bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f0547c92cba573b037fd7154b594ae') in 0.009537 seconds 
+  Import took 0.012042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/spikes.png
+  artifactKey: Guid(9afa48cf458654f758dd526410867ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/spikes.png using Guid(9afa48cf458654f758dd526410867ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0d9bfe2c1eb016118bc9b6f4cb1302') in 0.008471 seconds 
+  Import took 0.011105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-solid.png
+  artifactKey: Guid(93305f1e7afda4762b1ea1a1c55195f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-solid.png using Guid(93305f1e7afda4762b1ea1a1c55195f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0add9d77a120ad3e7cfa57ec981636e0') in 0.007908 seconds 
+  Import took 0.010356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-top-left.png
+  artifactKey: Guid(4d27f5711364145c98fb4ab91042a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-top-left.png using Guid(4d27f5711364145c98fb4ab91042a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c85315be33fe668a5b88d7f9d69e276') in 0.008819 seconds 
+  Import took 0.011511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-big.png
+  artifactKey: Guid(ca54d67e3cd8a4daa8b39c4c2614edf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-big.png using Guid(ca54d67e3cd8a4daa8b39c4c2614edf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b9bb95f22ac267f7908a555bd878cb') in 0.008694 seconds 
+  Import took 0.011602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/floor-plants.png
+  artifactKey: Guid(8ddb8190659c44f65b9b43319fe47383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/floor-plants.png using Guid(8ddb8190659c44f65b9b43319fe47383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b7da02892fbe7e8344e6f20e6e8121') in 0.008192 seconds 
+  Import took 0.011161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-slim.png
+  artifactKey: Guid(110db71c438084a938f7a6e107b3f938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-slim.png using Guid(110db71c438084a938f7a6e107b3f938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a66fde39f83fe8369e1febb5325155') in 0.008721 seconds 
+  Import took 0.011661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/plant-1.png
+  artifactKey: Guid(d3d4bdf6c3a254e538a53e11090c3cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/plant-1.png using Guid(d3d4bdf6c3a254e538a53e11090c3cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9503ae0066d2143a375df153d435fe') in 0.008456 seconds 
+  Import took 0.010998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-bottom-left.png
+  artifactKey: Guid(1f3915e494fe84fcda2376a8d5adec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-bottom-left.png using Guid(1f3915e494fe84fcda2376a8d5adec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f941e31e4c0cbfef515f626d951bfaba') in 0.007445 seconds 
+  Import took 0.010268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-bridge.png
+  artifactKey: Guid(9fccb6b9c141a4c7c953d2770446358e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-bridge.png using Guid(9fccb6b9c141a4c7c953d2770446358e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cf0c85712495622b824a0d821d0fe2') in 0.008103 seconds 
+  Import took 0.024293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-2-lava.png
+  artifactKey: Guid(8a57775294bdc4052935998797281f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-2-lava.png using Guid(8a57775294bdc4052935998797281f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf9c24b71703a143a190e02124c7158') in 0.008411 seconds 
+  Import took 0.011018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-bridge-lava.png
+  artifactKey: Guid(01887a7789b474d1b8d791033f52750e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-bridge-lava.png using Guid(01887a7789b474d1b8d791033f52750e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3225d5ce90bcd02e55d8803d65bd2f4') in 0.007454 seconds 
+  Import took 0.010268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-top-1-67.png
+  artifactKey: Guid(368ab4c228cf04e65916c0290cd3fd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-top-1-67.png using Guid(368ab4c228cf04e65916c0290cd3fd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fc09eb6af29f7d1261d5b64b0e10c9') in 0.008006 seconds 
+  Import took 0.010453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-bottom-plants-long.png
+  artifactKey: Guid(0c3d134b456104232a1b0128c3c8f984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-bottom-plants-long.png using Guid(0c3d134b456104232a1b0128c3c8f984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26535014ed8828c2c05675151da8d92') in 0.008240 seconds 
+  Import took 0.010761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-ground.png
+  artifactKey: Guid(422eac9b82b0b4a71a4e67134a684e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-ground.png using Guid(422eac9b82b0b4a71a4e67134a684e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d3f42734ae01c89e919a2367674873') in 0.009372 seconds 
+  Import took 0.012035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-1-lava.png
+  artifactKey: Guid(45c55a71dfc314a08a74a68030c2d838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/rockblock-1-lava.png using Guid(45c55a71dfc314a08a74a68030c2d838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259cd47d94124f56299599033be3dd03') in 0.007930 seconds 
+  Import took 0.010445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/snake-body-short.png
+  artifactKey: Guid(60f84a1ef482b43fca969fcaa6db1ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/snake-body-short.png using Guid(60f84a1ef482b43fca969fcaa6db1ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b0054228457b8ea7cbd294b9cc6abf') in 0.008373 seconds 
+  Import took 0.010870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-block-big.png
+  artifactKey: Guid(9c897c1aac02047838b8e1148533bd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/solid-block-big.png using Guid(9c897c1aac02047838b8e1148533bd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6156245310591bf067ea84815bff7b08') in 0.008249 seconds 
+  Import took 0.011181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-stalactite.png
+  artifactKey: Guid(951e41ff5a8a541c59b983e4291be766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/dirt-stalactite.png using Guid(951e41ff5a8a541c59b983e4291be766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cede21e49e03f3989a7ce1db5d44299c') in 0.008871 seconds 
+  Import took 0.011366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-right-1.png
+  artifactKey: Guid(cda1b399aad5c4406a98f4d16b999cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-right-1.png using Guid(cda1b399aad5c4406a98f4d16b999cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e4371b79d8311aaf3c4409a609d895') in 0.008306 seconds 
+  Import took 0.011372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/spikes-blood.png
+  artifactKey: Guid(56602cdcdede743d7b019f69d39bcf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/spikes-blood.png using Guid(56602cdcdede743d7b019f69d39bcf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf124ba57e8076eca7dda5172397d009') in 0.007737 seconds 
+  Import took 0.010563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-right-2.png
+  artifactKey: Guid(72af646ee3971462080ad4dccff75ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GrottoEscape2/GrottoEscape2Artwork/tiles/ground-right-2.png using Guid(72af646ee3971462080ad4dccff75ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071b37399db62758145a818224fd75d2') in 0.008608 seconds 
+  Import took 0.011106 seconds .
+
