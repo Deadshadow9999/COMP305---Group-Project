@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Ladder
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -12,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
-  - Hazard
-  - Ladder
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -41,16 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 2338642217
-    locked: 0
-  - name: Foreground
-    uniqueID: 107174883
-    locked: 0
-  - name: Player
-    uniqueID: 1888362259
-    locked: 0
-  - name: Effects
-    uniqueID: 3692416231
     locked: 0
