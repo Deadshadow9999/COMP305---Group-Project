@@ -13,9 +13,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform groundCheckPosition;
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private LayerMask whatIsHazard;
+    [SerializeField] private LayerMask whatIsLadder;
     [SerializeField] private float respawnDelay;
 
     public GameObject checkPoint;
+    public GameObject respawnAnimation;
 
     // Private Variables
     private Rigidbody2D rBody;
@@ -23,7 +25,9 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded = false;
     private bool isFacingRight = true;
     private bool isCrouching = false;
+    private bool isDying = false;
     private bool isDead = false;
+    private bool isClimbingLadder = false;
     private float defaultSpeed;
 
     // Start is called before the first frame update
@@ -34,13 +38,23 @@ public class PlayerController : MonoBehaviour
         defaultSpeed = speed;
     }
 
+    private void Update()
+    {
+        isDying = HazardCheck();
+        // Teleport player to checkpoint on death
+        if (isDying)
+        {
+            isDead = true;
+            StartCoroutine(RespawnAtCheckPoint());
+        }
+    }
     // Fixed update is called once per frame
     private void FixedUpdate()
     {
         float horiz = Input.GetAxis("Horizontal");
         float vert = Input.GetAxis("Vertical");
         isGrounded = GroundCheck();
-        isDead = HazardCheck();
+        isClimbingLadder = LadderCheck();
 
         if (Input.GetKey(KeyCode.R))
         {
@@ -48,22 +62,33 @@ public class PlayerController : MonoBehaviour
         }
 
         // Crouch code
-        if (isGrounded && Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+        if (!isDead)
         {
-            isCrouching = true;
-            speed = 0;
+            if (!isClimbingLadder)
+            {
+                if (isGrounded && Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+                {
+                    isCrouching = true;
+                    speed = 0;
+                }
+                if (!(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
+                {
+                    isCrouching = false;
+                    speed = defaultSpeed;
+                }
+            }
         }
-        if (!(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
-        {
-            isCrouching = false;
-            speed = defaultSpeed;
-        }
-
         // Jump code
         if (isGrounded && !isCrouching && !isDead && Input.GetAxis("Jump") > 0)
         {
             rBody.AddForce(new Vector2(0.0f, jumpForce));
             isGrounded = false;
+        }
+
+        // Climbing ladder code
+        if (isClimbingLadder)
+        {
+            rBody.velocity = new Vector2(horiz * speed, vert * speed);
         }
 
         rBody.velocity = new Vector2(horiz * speed, (rBody.velocity.y));
@@ -74,18 +99,12 @@ public class PlayerController : MonoBehaviour
             Flip();
         }
 
-        // Teleport player to checkpoint on death
-        if (isDead)
-        {
-            StartCoroutine(RespawnAtCheckPoint());
-        }
-
         // Communicate with the animator
         anim.SetFloat("xSpeed", Mathf.Abs(rBody.velocity.x));
         anim.SetFloat("ySpeed", (vert));
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isCrouching", isCrouching);
-        anim.SetBool("isDead", isDead);
+        anim.SetBool("isDead", isDying);
     }
 
     private bool GroundCheck()
@@ -97,7 +116,10 @@ public class PlayerController : MonoBehaviour
     {
         return Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckRadius, whatIsHazard);
     }
-
+    private bool LadderCheck()
+    {
+        return Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckRadius, whatIsLadder);
+    }
     private void Flip()
     {
         Vector3 temp = transform.localScale;
@@ -112,6 +134,24 @@ public class PlayerController : MonoBehaviour
         speed = 0;
         yield return new WaitForSeconds(respawnDelay);
         this.transform.position = checkPoint.transform.position;
+        Instantiate(respawnAnimation, transform.position, transform.rotation);
         speed = defaultSpeed;
+        isDying = false;
+        isDead = false;
+    }
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Ladder"))
+        {
+            rBody.gravityScale = 0;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Ladder"))
+        {
+            rBody.gravityScale = 1;
+        }
     }
 }
