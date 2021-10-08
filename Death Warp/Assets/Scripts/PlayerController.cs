@@ -7,12 +7,15 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     // Public Variables
-    [SerializeField] private float speed = 10.0f;
-    [SerializeField] private float jumpForce = 500.0f;
-    [SerializeField] private float groundCheckRadius = 0.15f;
+    [SerializeField] private float speed;
+    [SerializeField] private float jumpForce;
+    [SerializeField] private float groundCheckRadius;
     [SerializeField] private Transform groundCheckPosition;
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private LayerMask whatIsHazard;
+    [SerializeField] private float respawnDelay;
+
+    public GameObject checkPoint;
 
     // Private Variables
     private Rigidbody2D rBody;
@@ -21,12 +24,14 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = true;
     private bool isCrouching = false;
     private bool isDead = false;
+    private float defaultSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         rBody = GetComponent<Rigidbody2D>();
+        defaultSpeed = speed;
     }
 
     // Fixed update is called once per frame
@@ -46,14 +51,16 @@ public class PlayerController : MonoBehaviour
         if (isGrounded && Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
             isCrouching = true;
+            speed = 0;
         }
         if (!(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
         {
             isCrouching = false;
+            speed = defaultSpeed;
         }
 
         // Jump code
-        if (isGrounded && Input.GetAxis("Jump") > 0)
+        if (isGrounded && !isCrouching && !isDead && Input.GetAxis("Jump") > 0)
         {
             rBody.AddForce(new Vector2(0.0f, jumpForce));
             isGrounded = false;
@@ -65,6 +72,12 @@ public class PlayerController : MonoBehaviour
         if((isFacingRight && rBody.velocity.x < 0) || (!isFacingRight && rBody.velocity.x > 0))
         {
             Flip();
+        }
+
+        // Teleport player to checkpoint on death
+        if (isDead)
+        {
+            StartCoroutine(RespawnAtCheckPoint());
         }
 
         // Communicate with the animator
@@ -94,4 +107,11 @@ public class PlayerController : MonoBehaviour
         isFacingRight = !isFacingRight;
     }
 
+    IEnumerator RespawnAtCheckPoint()
+    {
+        speed = 0;
+        yield return new WaitForSeconds(respawnDelay);
+        this.transform.position = checkPoint.transform.position;
+        speed = defaultSpeed;
+    }
 }

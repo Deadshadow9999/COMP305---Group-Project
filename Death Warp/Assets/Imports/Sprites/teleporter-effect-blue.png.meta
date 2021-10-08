@@ -1,0 +1,2304 @@
+fileFormatVersion: 2
+guid: 08b21e1356de24149951c24b0fb2960f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7530810051416379754
+    second: teleporter-effect-blue_0
+  - first:
+      213: 5035711302865450694
+    second: teleporter-effect-blue_1
+  - first:
+      213: -8204407089888220713
+    second: teleporter-effect-blue_2
+  - first:
+      213: -8560778535713449129
+    second: teleporter-effect-blue_3
+  - first:
+      213: 4938740634757035112
+    second: teleporter-effect-blue_4
+  - first:
+      213: 6345256582407338865
+    second: teleporter-effect-blue_5
+  - first:
+      213: 7121536518308323214
+    second: teleporter-effect-blue_6
+  - first:
+      213: 2015380218060716037
+    second: teleporter-effect-blue_7
+  - first:
+      213: -6688737284679888195
+    second: teleporter-effect-blue_8
+  - first:
+      213: 5850516838341261751
+    second: teleporter-effect-blue_9
+  - first:
+      213: -4315373979028898919
+    second: teleporter-effect-blue_10
+  - first:
+      213: 5057919250281334320
+    second: teleporter-effect-blue_11
+  - first:
+      213: 4350090636228042585
+    second: teleporter-effect-blue_12
+  - first:
+      213: 117025888633218789
+    second: teleporter-effect-blue_13
+  - first:
+      213: 2446816396524218781
+    second: teleporter-effect-blue_14
+  - first:
+      213: 817613413060530077
+    second: teleporter-effect-blue_15
+  - first:
+      213: 908993707356160861
+    second: teleporter-effect-blue_16
+  - first:
+      213: 9000045006370187405
+    second: teleporter-effect-blue_17
+  - first:
+      213: -7576881683851734105
+    second: teleporter-effect-blue_18
+  - first:
+      213: 7251001895263223236
+    second: teleporter-effect-blue_19
+  - first:
+      213: 8659520382780728089
+    second: teleporter-effect-blue_20
+  - first:
+      213: -4902812112971637613
+    second: teleporter-effect-blue_21
+  - first:
+      213: 3824389530559684639
+    second: teleporter-effect-blue_22
+  - first:
+      213: 8516428503398296698
+    second: teleporter-effect-blue_23
+  - first:
+      213: 4684823210627905344
+    second: teleporter-effect-blue_24
+  - first:
+      213: -1378762344982184650
+    second: teleporter-effect-blue_25
+  - first:
+      213: -8241153424265279585
+    second: teleporter-effect-blue_26
+  - first:
+      213: 6920871347608403007
+    second: teleporter-effect-blue_27
+  - first:
+      213: -4904502263069032172
+    second: teleporter-effect-blue_28
+  - first:
+      213: 9101614890371446603
+    second: teleporter-effect-blue_29
+  - first:
+      213: -8597772106367812593
+    second: teleporter-effect-blue_30
+  - first:
+      213: -8625594185162929895
+    second: teleporter-effect-blue_31
+  - first:
+      213: 6295043213688758401
+    second: teleporter-effect-blue_32
+  - first:
+      213: -2212705286439816650
+    second: teleporter-effect-blue_33
+  - first:
+      213: -1305330509552807589
+    second: teleporter-effect-blue_34
+  - first:
+      213: 467171844428828055
+    second: teleporter-effect-blue_35
+  - first:
+      213: 244416034694329795
+    second: teleporter-effect-blue_36
+  - first:
+      213: -2292755836197584105
+    second: teleporter-effect-blue_37
+  - first:
+      213: 2522773435554235871
+    second: teleporter-effect-blue_38
+  - first:
+      213: -1122902891829221623
+    second: teleporter-effect-blue_39
+  - first:
+      213: 2220689815555334465
+    second: teleporter-effect-blue_40
+  - first:
+      213: 6416625060166790467
+    second: teleporter-effect-blue_41
+  - first:
+      213: -1156546150239741410
+    second: teleporter-effect-blue_42
+  - first:
+      213: 6847840488610359612
+    second: teleporter-effect-blue_43
+  - first:
+      213: -9096170502376099912
+    second: teleporter-effect-blue_44
+  - first:
+      213: -7917502100474877618
+    second: teleporter-effect-blue_45
+  - first:
+      213: 5438302866890381511
+    second: teleporter-effect-blue_46
+  - first:
+      213: -8976769751598642887
+    second: teleporter-effect-blue_47
+  - first:
+      213: -1033234473273947169
+    second: teleporter-effect-blue_48
+  - first:
+      213: 5353378456732522540
+    second: teleporter-effect-blue_49
+  - first:
+      213: 3971781211617219252
+    second: teleporter-effect-blue_50
+  - first:
+      213: -8912392919918889006
+    second: teleporter-effect-blue_51
+  - first:
+      213: 1574057037330296270
+    second: teleporter-effect-blue_52
+  - first:
+      213: -6813504485182519328
+    second: teleporter-effect-blue_53
+  - first:
+      213: -3312906644328961441
+    second: teleporter-effect-blue_54
+  - first:
+      213: 3349616677605066064
+    second: teleporter-effect-blue_55
+  - first:
+      213: -6787056732374123705
+    second: teleporter-effect-blue_56
+  - first:
+      213: 715652315486408416
+    second: teleporter-effect-blue_57
+  - first:
+      213: -6224454030475929630
+    second: teleporter-effect-blue_58
+  - first:
+      213: -3838660415641546127
+    second: teleporter-effect-blue_59
+  - first:
+      213: 6348071763649814594
+    second: teleporter-effect-blue_60
+  - first:
+      213: 4274508495164196131
+    second: teleporter-effect-blue_61
+  - first:
+      213: 5918094009223831096
+    second: teleporter-effect-blue_62
+  - first:
+      213: 3198971593101542005
+    second: teleporter-effect-blue_63
+  - first:
+      213: 7899693737535246620
+    second: teleporter-effect-blue_64
+  - first:
+      213: -8607664312180603556
+    second: teleporter-effect-blue_65
+  - first:
+      213: 7887630051728433226
+    second: teleporter-effect-blue_66
+  - first:
+      213: -1851408024463402850
+    second: teleporter-effect-blue_67
+  - first:
+      213: 2402609827325753835
+    second: teleporter-effect-blue_68
+  - first:
+      213: 416930676136251381
+    second: teleporter-effect-blue_69
+  - first:
+      213: -2304441238094847991
+    second: teleporter-effect-blue_70
+  - first:
+      213: 1749608291464932262
+    second: teleporter-effect-blue_71
+  - first:
+      213: 1506540308347737136
+    second: teleporter-effect-blue_72
+  - first:
+      213: -4980997152641206127
+    second: teleporter-effect-blue_73
+  - first:
+      213: -7729589676969965521
+    second: teleporter-effect-blue_74
+  - first:
+      213: 6319242742357351541
+    second: teleporter-effect-blue_75
+  - first:
+      213: -2297441299102270733
+    second: teleporter-effect-blue_76
+  - first:
+      213: 9106041945261997563
+    second: teleporter-effect-blue_77
+  - first:
+      213: -8907385496245922049
+    second: teleporter-effect-blue_78
+  - first:
+      213: -2968018861836493417
+    second: teleporter-effect-blue_79
+  - first:
+      213: -8566117638631068260
+    second: teleporter-effect-blue_80
+  - first:
+      213: 4766052891286045461
+    second: teleporter-effect-blue_81
+  - first:
+      213: -6028040553007140971
+    second: teleporter-effect-blue_82
+  - first:
+      213: 147939443537366728
+    second: teleporter-effect-blue_83
+  - first:
+      213: 5970635856189238771
+    second: teleporter-effect-blue_84
+  - first:
+      213: 3344182167845674917
+    second: teleporter-effect-blue_85
+  - first:
+      213: -5726970486551620647
+    second: teleporter-effect-blue_86
+  - first:
+      213: -9151549096813079154
+    second: teleporter-effect-blue_87
+  - first:
+      213: -8893722813373493884
+    second: teleporter-effect-blue_88
+  - first:
+      213: -2445535339545692786
+    second: teleporter-effect-blue_89
+  - first:
+      213: -2376350624002817968
+    second: teleporter-effect-blue_90
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: teleporter-effect-blue_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2927
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a615d9187dfc28860800000000000000
+      internalID: 7530810051416379754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2892
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6f6b6efb072e540800000000000000
+      internalID: 5035711302865450694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2894
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d924867837142e80800000000000000
+      internalID: -8204407089888220713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2892
+        width: 100
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bd20a5741023980800000000000000
+      internalID: -8560778535713449129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_4
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2892
+        width: 102
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864fa74d07ee98440800000000000000
+      internalID: 4938740634757035112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_5
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 2890
+        width: 107
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b391b3e31ee0850800000000000000
+      internalID: 6345256582407338865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_6
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2891
+        width: 112
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f5dbc5bb7c4d260800000000000000
+      internalID: 7121536518308323214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_7
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 2891
+        width: 116
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508bbd061a118fb10800000000000000
+      internalID: 2015380218060716037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_8
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2892
+        width: 122
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db29eb6c0e4dc23a0800000000000000
+      internalID: -6688737284679888195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_9
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 2891
+        width: 129
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9b5cd2116313150800000000000000
+      internalID: 5850516838341261751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2572
+        width: 132
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bb40bda36bc14c0800000000000000
+      internalID: -4315373979028898919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 2570
+        width: 138
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03601a792c6513640800000000000000
+      internalID: 5057919250281334320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2570
+        width: 142
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f1029c260ae5c30800000000000000
+      internalID: 4350090636228042585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_13
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2570
+        width: 148
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6e189fc62cf9100800000000000000
+      internalID: 117025888633218789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_14
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2570
+        width: 150
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d996d618c86d4f120800000000000000
+      internalID: 2446816396524218781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_15
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2570
+        width: 153
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f4119311fb85b00800000000000000
+      internalID: 817613413060530077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_16
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 2570
+        width: 153
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d538706f5f46d9c00800000000000000
+      internalID: 908993707356160861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_17
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 2570
+        width: 153
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88293fbf3596ec70800000000000000
+      internalID: 9000045006370187405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_18
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 2570
+        width: 153
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a39ad8a04289d690800000000000000
+      internalID: -7576881683851734105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_19
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 2570
+        width: 156
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd39d86ecbb0a460800000000000000
+      internalID: 7251001895263223236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2249
+        width: 157
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91366e478ebcc2870800000000000000
+      internalID: 8659520382780728089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2249
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cd7d50c56b5fbb0800000000000000
+      internalID: -4902812112971637613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_22
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2250
+        width: 159
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10abbbf306f21530800000000000000
+      internalID: 3824389530559684639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_23
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 2249
+        width: 160
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c21141a9e603670800000000000000
+      internalID: 8516428503398296698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_24
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 2249
+        width: 159
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0473bf883e5d30140800000000000000
+      internalID: 4684823210627905344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_25
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 2250
+        width: 159
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63df6a5c3f6addce0800000000000000
+      internalID: -1378762344982184650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_26
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2250
+        width: 161
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f978c27cf9a81ad80800000000000000
+      internalID: -8241153424265279585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_27
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 2249
+        width: 159
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cb06282dfdb0060800000000000000
+      internalID: 6920871347608403007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_28
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 2248
+        width: 160
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411cba94d25bfebb0800000000000000
+      internalID: -4904502263069032172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_29
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 2249
+        width: 161
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47fef6358e6f4e70800000000000000
+      internalID: 9101614890371446603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1929
+        width: 169
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c3f2c72d39ea880800000000000000
+      internalID: -8597772106367812593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_31
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1929
+        width: 171
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91940b8f9cbbb4880800000000000000
+      internalID: -8625594185162929895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_32
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1929
+        width: 167
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180e6a5437c7c5750800000000000000
+      internalID: 6295043213688758401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_33
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1928
+        width: 167
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6323021f344ea41e0800000000000000
+      internalID: -2212705286439816650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_34
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1928
+        width: 169
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5110a741d882ede0800000000000000
+      internalID: -1305330509552807589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_35
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1928
+        width: 169
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d8e3c315abb7600800000000000000
+      internalID: 467171844428828055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_36
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1929
+        width: 169
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c57d5da617546300800000000000000
+      internalID: 244416034694329795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_37
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1930
+        width: 169
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7134dbae6be7e20e0800000000000000
+      internalID: -2292755836197584105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_38
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1928
+        width: 168
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5800bc211b20320800000000000000
+      internalID: 2522773435554235871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_39
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1928
+        width: 169
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907a24fe4c5aa60f0800000000000000
+      internalID: -1122902891829221623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_40
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1608
+        width: 169
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141e08c1f9971de10800000000000000
+      internalID: 2220689815555334465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_41
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1609
+        width: 167
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d6c18de7e6c0950800000000000000
+      internalID: 6416625060166790467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_42
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1609
+        width: 168
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a5d9c676f13ffe0800000000000000
+      internalID: -1156546150239741410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_43
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1609
+        width: 168
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39682a94aa680f50800000000000000
+      internalID: 6847840488610359612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_44
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1609
+        width: 168
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf6c752f19e3c180800000000000000
+      internalID: -9096170502376099912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_45
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1609
+        width: 166
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4929c0d9c16f1290800000000000000
+      internalID: -7917502100474877618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_46
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1611
+        width: 166
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c85df1e4abb87b40800000000000000
+      internalID: 5438302866890381511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_47
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1611
+        width: 169
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939cd7dc87b1c6380800000000000000
+      internalID: -8976769751598642887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_48
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1611
+        width: 172
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb81da88b639a1f0800000000000000
+      internalID: -1033234473273947169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_49
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1611
+        width: 172
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2855cdc7550b4a40800000000000000
+      internalID: 5353378456732522540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1291
+        width: 169
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2d304f7f99e1730800000000000000
+      internalID: 3971781211617219252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_51
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1291
+        width: 169
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d73785fbd1d05480800000000000000
+      internalID: -8912392919918889006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_52
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1289
+        width: 170
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecda646298c28d510800000000000000
+      internalID: 1574057037330296270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_53
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1289
+        width: 169
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e74a2d25c19171a0800000000000000
+      internalID: -6813504485182519328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_54
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1289
+        width: 170
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aadb2a5f03602d0800000000000000
+      internalID: -3312906644328961441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_55
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1289
+        width: 168
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055cf5a0f9a3c7e20800000000000000
+      internalID: 3349616677605066064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_56
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1289
+        width: 169
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bba6c7cd78fc1a0800000000000000
+      internalID: -6787056732374123705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_57
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1289
+        width: 167
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eec04f3df18ee900800000000000000
+      internalID: 715652315486408416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_58
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 1289
+        width: 168
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7dbb0b90c4e99a0800000000000000
+      internalID: -6224454030475929630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_59
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1289
+        width: 169
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1721558a0b65abac0800000000000000
+      internalID: -3838660415641546127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_60
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 970
+        width: 169
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e801b2a1e81850800000000000000
+      internalID: 6348071763649814594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_61
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 970
+        width: 169
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325c6ab34da125b30800000000000000
+      internalID: 4274508495164196131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_62
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 970
+        width: 167
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e572f552b412250800000000000000
+      internalID: 5918094009223831096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_63
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 970
+        width: 169
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572026d07b7056c20800000000000000
+      internalID: 3198971593101542005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_64
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 970
+        width: 171
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c119a24999951ad60800000000000000
+      internalID: 7899693737535246620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_65
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 970
+        width: 170
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c550ba6d9ee6b8880800000000000000
+      internalID: -8607664312180603556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_66
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 970
+        width: 170
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4028f8ddbd767d60800000000000000
+      internalID: 7887630051728433226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_67
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 968
+        width: 169
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e981d8ff53a7e46e0800000000000000
+      internalID: -1851408024463402850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_68
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 970
+        width: 169
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be93d9b88e8c75120800000000000000
+      internalID: 2402609827325753835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_69
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 970
+        width: 170
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff801fad3c39c500800000000000000
+      internalID: 416930676136251381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_70
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 650
+        width: 173
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900689547eaf400e0800000000000000
+      internalID: -2304441238094847991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_71
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 649
+        width: 172
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab68d4a87bd74810800000000000000
+      internalID: 1749608291464932262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_72
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 650
+        width: 171
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034dfdead6e48e410800000000000000
+      internalID: 1506540308347737136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_73
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 649
+        width: 172
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198b699ea71ffdab0800000000000000
+      internalID: -4980997152641206127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_74
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 807
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28cda4542bfab490800000000000000
+      internalID: -7729589676969965521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_75
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 649
+        width: 169
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cdcab1bc572b750800000000000000
+      internalID: 6319242742357351541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_76
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 650
+        width: 172
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa72b29f49dd10e0800000000000000
+      internalID: -2297441299102270733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_77
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 649
+        width: 170
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdf52147e82f5e70800000000000000
+      internalID: 9106041945261997563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_78
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 649
+        width: 169
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff69bc2a51c926480800000000000000
+      internalID: -8907385496245922049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_79
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 649
+        width: 172
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d9395029a7fc6d0800000000000000
+      internalID: -2968018861836493417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_80
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 649
+        width: 171
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9def2594690f1980800000000000000
+      internalID: -8566117638631068260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_81
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 328
+        width: 171
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51304dd5adb642240800000000000000
+      internalID: 4766052891286045461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_82
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 329
+        width: 173
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f2c521e09185ca0800000000000000
+      internalID: -6028040553007140971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_83
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 329
+        width: 172
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce405cd3269d0200800000000000000
+      internalID: 147939443537366728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_84
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 329
+        width: 173
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdae5b6da5fbd250800000000000000
+      internalID: 5970635856189238771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_85
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 330
+        width: 173
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af13a2a6fbe86e20800000000000000
+      internalID: 3344182167845674917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_86
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 330
+        width: 173
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3d1fd6fa6b580b0800000000000000
+      internalID: -5726970486551620647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_87
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 331
+        width: 172
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85d8eb559a2ff080800000000000000
+      internalID: -9151549096813079154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_88
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 331
+        width: 171
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dc512e836239480800000000000000
+      internalID: -8893722813373493884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_89
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 331
+        width: 170
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85f6b0d096bf0ed0800000000000000
+      internalID: -2445535339545692786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teleporter-effect-blue_90
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 331
+        width: 170
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050c88aa2b1850fd0800000000000000
+      internalID: -2376350624002817968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
