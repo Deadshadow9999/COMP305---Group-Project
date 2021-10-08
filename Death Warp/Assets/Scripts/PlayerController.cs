@@ -13,9 +13,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform groundCheckPosition;
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private LayerMask whatIsHazard;
+    [SerializeField] private LayerMask whatIsLadder;
     [SerializeField] private float respawnDelay;
 
     public GameObject checkPoint;
+    public GameObject respawnAnimation;
 
     // Private Variables
     private Rigidbody2D rBody;
@@ -24,6 +26,7 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = true;
     private bool isCrouching = false;
     private bool isDead = false;
+    private bool isClimbingLadder = false;
     private float defaultSpeed;
 
     // Start is called before the first frame update
@@ -41,6 +44,7 @@ public class PlayerController : MonoBehaviour
         float vert = Input.GetAxis("Vertical");
         isGrounded = GroundCheck();
         isDead = HazardCheck();
+        isClimbingLadder = LadderCheck();
 
         if (Input.GetKey(KeyCode.R))
         {
@@ -64,6 +68,12 @@ public class PlayerController : MonoBehaviour
         {
             rBody.AddForce(new Vector2(0.0f, jumpForce));
             isGrounded = false;
+        }
+
+        // Climbing ladder code
+        if (isClimbingLadder)
+        {
+            rBody.velocity = new Vector2(horiz * speed, vert * speed);
         }
 
         rBody.velocity = new Vector2(horiz * speed, (rBody.velocity.y));
@@ -98,6 +108,11 @@ public class PlayerController : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckRadius, whatIsHazard);
     }
 
+    private bool LadderCheck()
+    {
+        return Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckRadius, whatIsLadder);
+    }
+
     private void Flip()
     {
         Vector3 temp = transform.localScale;
@@ -112,6 +127,23 @@ public class PlayerController : MonoBehaviour
         speed = 0;
         yield return new WaitForSeconds(respawnDelay);
         this.transform.position = checkPoint.transform.position;
+        Instantiate(respawnAnimation, transform.position, transform.rotation);
         speed = defaultSpeed;
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Ladder"))
+        {
+            rBody.gravityScale = 0;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Ladder"))
+        {
+            rBody.gravityScale = 1;
+        }
     }
 }
