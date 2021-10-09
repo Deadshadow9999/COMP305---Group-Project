@@ -71,10 +71,17 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 939
+<<<<<<< HEAD
   m_MinSize: {x: 780, y: 342}
   m_MaxSize: {x: 16005, y: 8042}
   vertical: 0
   controlID: 19
+=======
+  m_MinSize: {x: 781, y: 342}
+  m_MaxSize: {x: 16006, y: 8042}
+  vertical: 0
+  controlID: 76
+>>>>>>> parent of e0475856 (Fixed death animation)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +101,8 @@ MonoBehaviour:
     y: 0
     width: 390
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -146,8 +153,13 @@ MonoBehaviour:
     y: 568
     width: 1530
     height: 371
+<<<<<<< HEAD
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of e0475856 (Fixed death animation)
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 15}
@@ -176,7 +188,11 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 989
+<<<<<<< HEAD
   m_MinSize: {x: 875, y: 392}
+=======
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> parent of e0475856 (Fixed death animation)
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -252,7 +268,11 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 342}
   m_MaxSize: {x: 12005, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 78
+=======
+  controlID: 77
+>>>>>>> parent of e0475856 (Fixed death animation)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +298,11 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 79
+=======
+  controlID: 78
+>>>>>>> parent of e0475856 (Fixed death animation)
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,7 +324,11 @@ MonoBehaviour:
     height: 568
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+<<<<<<< HEAD
   m_ActualView: {fileID: 18}
+=======
+  m_ActualView: {fileID: 19}
+>>>>>>> parent of e0475856 (Fixed death animation)
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
@@ -337,6 +365,7 @@ MonoBehaviour:
     - {fileID: 9069943594525981773, guid: 908bfc179545586498c19bd63d044ce0, type: 2}
     - {fileID: 6405761460848735054, guid: 663c0370e54fd77408ecdb7684e584a2, type: 2}
     m_ValueSerializationHelper:
+<<<<<<< HEAD
     - e00: 0.6443266
       e01: 0
       e02: 0
@@ -361,6 +390,16 @@ MonoBehaviour:
       e11: 0.18315789
       e12: 0
       e13: 238.43158
+=======
+    - e00: 0.46787763
+      e01: 0
+      e02: 0
+      e03: -235.80493
+      e10: 0
+      e11: 0.46787763
+      e12: 0
+      e13: 233.99185
+>>>>>>> parent of e0475856 (Fixed death animation)
       e20: 0
       e21: 0
       e22: 1
@@ -448,22 +487,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Prefabs
+=======
+    - Assets/Animations/Player
+>>>>>>> parent of e0475856 (Fixed death animation)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Prefabs
+=======
+  - Assets/Animations/Player
+>>>>>>> parent of e0475856 (Fixed death animation)
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\UnityProject\COMP305-Group-Project\Death Warp
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: c0460000
     m_LastClickedID: 18112
     m_ExpandedIDs: 00000000a2460000a4460000a6460000a8460000aa460000b846000000ca9a3b
+=======
+    m_SelectedIDs: 084a0000
+    m_LastClickedID: 18952
+    m_ExpandedIDs: 00000000c0460000c2460000c4460000c6460000c8460000044900000849000000ca9a3b
+>>>>>>> parent of e0475856 (Fixed death animation)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,7 +544,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000a2460000a4460000a6460000a8460000aa460000
+=======
+    m_ExpandedIDs: 00000000c0460000c2460000c4460000c6460000c8460000
+>>>>>>> parent of e0475856 (Fixed death animation)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -516,9 +573,15 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: c4430000
     m_LastClickedInstanceID: 17348
     m_HadKeyboardFocusLastEvent: 1
+=======
+    m_SelectedInstanceIDs: 00e8ffff
+    m_LastClickedInstanceID: -6144
+    m_HadKeyboardFocusLastEvent: 0
+>>>>>>> parent of e0475856 (Fixed death animation)
     m_ExpandedInstanceIDs: c6230000f04b0000e04c0000684d00009e59000064690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -612,9 +675,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: c4430000
       m_LastClickedID: 17348
       m_ExpandedIDs: 3efbffff7a43000082430000
+=======
+      m_SelectedIDs: 0efbffff
+      m_LastClickedID: -1266
+      m_ExpandedIDs: 5423ffff0efbffff3cfbffff3efbffff7243000076430000b2430000
+>>>>>>> parent of e0475856 (Fixed death animation)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
