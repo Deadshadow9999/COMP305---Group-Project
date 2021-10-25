@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 83
+  controlID: 131
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -509,7 +509,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: eef3ffff06f4ffff5af4ffff5ef4fffffef6ffff16f7ffff6af7ffff6ef7ffff02f8ffff1af8ffff6ef8ffff72f8ffffc6f8ffffdef8ffff56faffff5afaffff3efbffffa0650000
+      m_ExpandedIDs: a0f7ffffb8f7ffff30f9ffff34f9ffff3efbffffa2430000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.3834306, y: 2.3291292, z: 79.48406}
+    m_Target: {x: 0.015873313, y: 2.244735, z: 84.91199}
     speed: 2
-    m_Value: {x: -0.5069751, y: 2.1011646, z: 82.324905}
+    m_Value: {x: -0.6899031, y: 2.2895463, z: 82.15818}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -622,9 +622,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.602541
+    m_Target: 10.486215
     speed: 2
-    m_Value: 10.0550165
+    m_Value: 10.034656
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -705,7 +705,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -718,7 +718,7 @@ MonoBehaviour:
       y: 21
       width: 1150
       height: 526
-    m_Scale: {x: 0.48703703, y: 0.48703703}
+    m_Scale: {x: 0.50648147, y: 0.50648147}
     m_Translation: {x: 575, y: 263}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -726,12 +726,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1180.6084
-      y: -540
-      width: 2361.2168
-      height: 1080
+      x: -1135.2834
+      y: -519.26874
+      width: 2270.567
+      height: 1038.5375
     m_MinimalGUI: 1
-  m_defaultScale: 0.48703703
+  m_defaultScale: 0.50648147
   m_LastWindowPixelSize: {x: 1150, y: 547}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
