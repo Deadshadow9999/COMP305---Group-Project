@@ -8,40 +8,31 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
 
-    private bool gameIsPaused = false;
+    private OptionsController optionsControllerScript;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        optionsControllerScript = pauseMenu.GetComponent<OptionsController>();
+    }
 
     // Update is called once per frame
     void Update()
     {
+
+        // Show / Hide pause menu
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            gameIsPaused = !gameIsPaused;
+            optionsControllerScript.gameIsPaused = !optionsControllerScript.gameIsPaused;
         }
 
-        if(gameIsPaused == true)
+        if(optionsControllerScript.gameIsPaused == true)
         {
-            PauseGame();
+            pauseMenu.GetComponent<OptionsController>().PauseGame();
         }
-        else
+        else if(optionsControllerScript.gameIsPaused == false)
         {
-            ResumeGame();
+            pauseMenu.GetComponent<OptionsController>().ResumeGame();
         }
-    }
-
-    public void PauseGame()
-    {
-        Time.timeScale = 0;
-        pauseMenu.SetActive(true);
-    }
-
-    public void ResumeGame()
-    {
-        Time.timeScale = 1;
-        pauseMenu.SetActive(false);
-    }
-
-    public void BackToMainMenu()
-    {
-        SceneManager.LoadScene("Main Menu");
     }
 }

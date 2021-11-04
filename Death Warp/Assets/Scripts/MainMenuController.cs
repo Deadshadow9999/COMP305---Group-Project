@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
+
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
+
     public void StartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Level 1");
     }
 
     public void Controls()
