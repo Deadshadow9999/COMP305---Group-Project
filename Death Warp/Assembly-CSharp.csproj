@@ -57,14 +57,15 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Imports\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\NextLevel.cs" />
+    <Compile Include="Assets\Scripts\NextLevel.cs" />
     <Compile Include="Assets\Scripts\DestroyEffects.cs" />
     <Compile Include="Assets\Scripts\PlatformTrigger2.cs" />
     <Compile Include="Assets\Scripts\PlatformTrigger.cs" />
     <Compile Include="Assets\Scripts\BackgroundScrolling.cs" />
-    <Compile Include="Assets\LeverUsage.cs" />
+    <Compile Include="Assets\Scripts\LeverUsage.cs" />
     <Compile Include="Assets\Scripts\CheckPointTrigger.cs" />
     <Compile Include="Assets\Scripts\MainMenuController.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

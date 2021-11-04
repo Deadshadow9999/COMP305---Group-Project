@@ -10,6 +10,16 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void Controls()
+    {
+        SceneManager.LoadScene("Game Controls");
+    }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
     public void QuitGame()
     {
 #if UNITY_EDITOR
