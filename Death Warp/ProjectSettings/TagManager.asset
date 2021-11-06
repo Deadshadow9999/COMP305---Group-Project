@@ -9,14 +9,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Ground
   - Hazard
   - Ladder
   - Background
-  - 
+  - Hazards
   - 
   - 
   - 
@@ -56,4 +56,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 3091699429
+    locked: 0
+  - name: Hazards
+    uniqueID: 3003322071
     locked: 0
