@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\PlatformTrigger2.cs" />
      <Compile Include="Assets\Scripts\PlatformTrigger.cs" />
      <Compile Include="Assets\Scripts\BackgroundScrolling.cs" />
+     <Compile Include="Assets\Scripts\CameraControllerWithBuffer.cs" />
      <Compile Include="Assets\Scripts\CheckPointTrigger.cs" />
      <Compile Include="Assets\Scripts\MainMenuController.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
