@@ -1,31 +1,31 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/User/Documents/GitHub/COMP305-Group-Project/Death Warp/Packages/manifest.json
+    m_FilePath: E:/UnityProject/COMP305-Group-Project/Death Warp/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637716515670540032
-    m_Hash: 2515785555
+      ticks: 637719360828262745
+    m_Hash: 2067399773
   m_LockFileStatus:
-    m_FilePath: C:/Users/User/Documents/GitHub/COMP305-Group-Project/Death Warp/Packages/packages-lock.json
+    m_FilePath: E:/UnityProject/COMP305-Group-Project/Death Warp/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637716515670540032
-    m_Hash: 1238707978
+      ticks: 637719360841945831
+    m_Hash: 3185699796
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.animation@5.0.7
+    - packageId: com.unity.2d.animation@5.0.9
       testable: 0
       isDirectDependency: 1
-      version: 5.0.7
+      version: 5.0.9
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.animation@5.0.7
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.animation@5.0.9
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -114,9 +114,6 @@ m_PackageAssets:
         - 7.0.1
         - 8.0.0-pre.3
         compatible:
-        - 5.0.6
-        - 5.0.7
-        - 5.0.8
         - 5.0.9
         verified: 5.0.9
       dependencies:
@@ -164,20 +161,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637637510960000000
+      datePublishedTicks: 637704378040000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 6f9c488e4d487ead34ee4d516f0a2f4a911a8b25
+        revision: 66590de9de7c21359f721ef05db04d7f1753bde9
         path: 
     - packageId: com.unity.2d.pixel-perfect@4.0.1
       testable: 0
       isDirectDependency: 1
       version: 4.0.1
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
       displayName: 2D Pixel Perfect
@@ -247,12 +244,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
         path: 
-    - packageId: com.unity.2d.psdimporter@4.1.0
+    - packageId: com.unity.2d.psdimporter@4.1.2
       testable: 0
       isDirectDependency: 1
-      version: 4.1.0
+      version: 4.1.2
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.psdimporter@4.1.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.psdimporter@4.1.2
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -317,15 +314,13 @@ m_PackageAssets:
         - 6.0.1
         - 7.0.0-pre.3
         compatible:
-        - 4.1.0
-        - 4.1.1
         - 4.1.2
         verified: 4.1.2
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
       - name: com.unity.2d.animation
-        version: 5.0.6
+        version: 5.0.9
       - name: com.unity.2d.sprite
         version: 1.0.0
       resolvedDependencies:
@@ -344,7 +339,7 @@ m_PackageAssets:
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
       - name: com.unity.2d.animation
-        version: 5.0.7
+        version: 5.0.9
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.modules.animation
@@ -365,20 +360,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637594727750000000
+      datePublishedTicks: 637704378080000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 9e7fd5cbe078d004f1e87ecdf3b57436664a690a
+        revision: 66590de9de7c21359f721ef05db04d7f1753bde9
         path: 
     - packageId: com.unity.2d.sprite@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.sprite@1.0.0
       assetPath: Packages/com.unity.2d.sprite
       name: com.unity.2d.sprite
       displayName: 2D Sprite
@@ -424,12 +419,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.2d.spriteshape@5.1.4
+    - packageId: com.unity.2d.spriteshape@5.1.5
       testable: 0
       isDirectDependency: 1
-      version: 5.1.4
+      version: 5.1.5
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.spriteshape@5.1.4
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.spriteshape@5.1.5
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -508,7 +503,6 @@ m_PackageAssets:
         - 7.0.2
         - 8.0.0-pre.4
         compatible:
-        - 5.1.4
         - 5.1.5
         verified: 5.1.5
       dependencies:
@@ -560,20 +554,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637637511330000000
+      datePublishedTicks: 637684997050000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 6f9c488e4d487ead34ee4d516f0a2f4a911a8b25
+        revision: f2df77302616ee97ac0bda980859324394e44df3
         path: 
     - packageId: com.unity.2d.tilemap@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.tilemap@1.0.0
       assetPath: Packages/com.unity.2d.tilemap
       name: com.unity.2d.tilemap
       displayName: 2D Tilemap Editor
@@ -623,7 +617,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.6.10
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.cinemachine@2.6.10
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.cinemachine@2.6.10
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -678,6 +672,7 @@ m_PackageAssets:
         - 2.6.5
         - 2.6.9
         - 2.6.10
+        - 2.6.11
         - 2.7.1
         - 2.7.2
         - 2.7.3
@@ -691,6 +686,7 @@ m_PackageAssets:
         - 2.8.0
         - 2.8.1
         - 2.8.2
+        - 2.9.0-pre.1
         compatible:
         - 2.5.0
         - 2.6.0-preview.2
@@ -708,6 +704,7 @@ m_PackageAssets:
         - 2.6.5
         - 2.6.9
         - 2.6.10
+        - 2.6.11
         - 2.7.1
         - 2.7.2
         - 2.7.3
@@ -721,7 +718,8 @@ m_PackageAssets:
         - 2.8.0
         - 2.8.1
         - 2.8.2
-        verified: 2.6.10
+        - 2.9.0-pre.1
+        verified: 2.6.11
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -767,12 +765,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.unity.cinemachine.git
         revision: 21f619698ca31d69054e96556e03097e48e43c5d
         path: 
-    - packageId: com.unity.collab-proxy@1.11.2
+    - packageId: com.unity.collab-proxy@1.13.5
       testable: 0
       isDirectDependency: 1
-      version: 1.11.2
+      version: 1.13.5
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.collab-proxy@1.11.2
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.collab-proxy@1.13.5
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -830,8 +828,6 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.11.2
-        - 1.12.5
         - 1.13.5
         - 1.14.1
         - 1.15.1
@@ -845,9 +841,19 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.11.2
-      dependencies: []
-      resolvedDependencies: []
+        verified: 1.13.5
+      dependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      - name: com.unity.services.core
+        version: 1.0.1
+      resolvedDependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      - name: com.unity.services.core
+        version: 1.0.1
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
       keywords:
       - backup
       - cloud
@@ -874,20 +880,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637679178630000000
+      datePublishedTicks: 637685076530000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: 3bc7fe2ab9acbe4538785fec6100ac17fe9e8da5
+        revision: 4001806dc89b25276d1382d5abffd71731b030e5
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -994,7 +1000,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.11
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -1081,7 +1087,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.4
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.ide.vscode@1.2.4
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.ide.vscode@1.2.4
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -1152,7 +1158,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.29
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.test-framework@1.1.29
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.test-framework@1.1.29
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1245,7 +1251,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1359,9 +1365,12 @@ m_PackageAssets:
         - 3.0.5
         - 3.0.6
         - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 4.0.0-pre.1
         compatible:
         - 3.0.6
         - 3.2.0-pre.1
+        - 3.2.0-pre.2
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -1404,7 +1413,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1487,6 +1496,7 @@ m_PackageAssets:
         - 1.6.1
         - 1.6.2
         - 1.6.3
+        - 1.7.0-pre.1
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1510,6 +1520,7 @@ m_PackageAssets:
         - 1.6.1
         - 1.6.2
         - 1.6.3
+        - 1.7.0-pre.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1560,7 +1571,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1623,7 +1634,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1671,7 +1682,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1719,7 +1730,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1767,7 +1778,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1815,7 +1826,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1863,7 +1874,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1915,7 +1926,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1971,7 +1982,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -2020,7 +2031,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -2068,7 +2079,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -2116,7 +2127,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -2164,7 +2175,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -2212,7 +2223,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2260,7 +2271,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2312,7 +2323,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2360,7 +2371,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2416,7 +2427,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2468,7 +2479,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2516,7 +2527,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2580,7 +2591,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2628,7 +2639,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2684,7 +2695,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2732,7 +2743,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2788,7 +2799,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2844,7 +2855,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2900,7 +2911,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2972,7 +2983,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -3024,7 +3035,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -3084,7 +3095,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -3146,7 +3157,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -3194,7 +3205,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3254,7 +3265,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3306,7 +3317,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3365,7 +3376,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3421,12 +3432,141 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        verified: 2.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637237898320000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+        path: 
+    - packageId: com.unity.services.core@1.0.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.1
+      source: 1
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.services.core@1.0.1
+      assetPath: Packages/com.unity.services.core
+      name: com.unity.services.core
+      displayName: Services Core
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'This package defines common components used by multiple Game
+        Service packages.
+
+        These are standardized and aim to unify the overall
+        experience of working with Game Services packages.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.1
+        compatible:
+        - 1.0.1
+        verified: 1.0.1
+      dependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+        revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+        path: 
     - packageId: com.unity.mathematics@1.1.0
       testable: 0
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3503,7 +3643,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.3
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.common@4.0.3
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.common@4.0.3
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3591,7 +3731,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.2
       source: 1
-      resolvedPath: C:\Users\User\Documents\GitHub\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.path@4.0.2
+      resolvedPath: E:\UnityProject\COMP305-Group-Project\Death Warp\Library\PackageCache\com.unity.2d.path@4.0.2
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
       displayName: 2D Path
@@ -3657,5 +3797,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/User/Documents/GitHub/COMP305-Group-Project/Death Warp/Packages
-m_EditorVersion: 2020.3.20f1 (41c4e627c95f)
+m_ProjectPath: E:/UnityProject/COMP305-Group-Project/Death Warp/Packages
+m_EditorVersion: 2020.3.22f1 (e1a7f79fd887)
