@@ -7,41 +7,29 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
+    private OptionsMenuController optionsMenuController;
 
-    private bool gameIsPaused = false;
+    private void Start()
+    {
+        optionsMenuController = pauseMenu.GetComponent<OptionsMenuController>();
+    }
 
     // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            gameIsPaused = !gameIsPaused;
+            optionsMenuController.gameIsPaused = !optionsMenuController.gameIsPaused;
         }
 
-        if(gameIsPaused == true)
+        if(optionsMenuController.gameIsPaused == true)
         {
-            PauseGame();
+            optionsMenuController.PauseGame();
         }
         else
         {
-            ResumeGame();
+            optionsMenuController.ResumeGame();
         }
     }
 
-    public void PauseGame()
-    {
-        Time.timeScale = 0;
-        pauseMenu.SetActive(true);
-    }
-
-    public void ResumeGame()
-    {
-        Time.timeScale = 1;
-        pauseMenu.SetActive(false);
-    }
-
-    public void BackToMainMenu()
-    {
-        SceneManager.LoadScene("Main Menu");
-    }
 }
