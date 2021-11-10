@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class DestroyEffects : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    [Header("Animations")]
+    [SerializeField] private GameObject teamLogo;
+    [SerializeField] private GameObject explosionAnimation;
+
     public void DestroyThis()
     {
         Destroy(this.gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DisplayTeamLogo()
     {
-        
+        Instantiate(teamLogo, transform.position, transform.rotation);
+    }
+
+    public void DisplayExplosionAnimation()
+    {
+        Instantiate(explosionAnimation, transform.position, transform.rotation);
     }
 }
