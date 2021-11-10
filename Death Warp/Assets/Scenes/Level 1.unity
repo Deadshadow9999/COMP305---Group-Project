@@ -149,7 +149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 838832674274840676, guid: 0229a681b43ecd340a3a1ec9fd4e775d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.81
+      value: -1.92
       objectReference: {fileID: 0}
     - target: {fileID: 838832674274840676, guid: 0229a681b43ecd340a3a1ec9fd4e775d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -185,7 +185,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 838832674274840677, guid: 0229a681b43ecd340a3a1ec9fd4e775d, type: 3}
       propertyPath: m_Size.y
-      value: 3.56
+      value: 5.7654667
+      objectReference: {fileID: 0}
+    - target: {fileID: 838832674274840677, guid: 0229a681b43ecd340a3a1ec9fd4e775d, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.8313127
       objectReference: {fileID: 0}
     - target: {fileID: 838832674274840678, guid: 0229a681b43ecd340a3a1ec9fd4e775d, type: 3}
       propertyPath: player
@@ -871,6 +875,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1038201326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1038201327}
+  m_Layer: 0
+  m_Name: RespawnEffectLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1038201327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038201326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 440904610}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1077592043
 GameObject:
   m_ObjectHideFlags: 0
@@ -22148,7 +22182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 838832674274840676, guid: 0229a681b43ecd340a3a1ec9fd4e775d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.02
+      value: -2.93
       objectReference: {fileID: 0}
     - target: {fileID: 838832674274840676, guid: 0229a681b43ecd340a3a1ec9fd4e775d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22341,6 +22375,10 @@ PrefabInstance:
       propertyPath: whatIsLadder.m_Bits
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 7043683919818421140, guid: 18b100508969cda4d91c4ef93bf2415b, type: 3}
+      propertyPath: respawnEffectLocation
+      value: 
+      objectReference: {fileID: 1038201326}
     - target: {fileID: 7043683919818421166, guid: 18b100508969cda4d91c4ef93bf2415b, type: 3}
       propertyPath: m_Name
       value: Player

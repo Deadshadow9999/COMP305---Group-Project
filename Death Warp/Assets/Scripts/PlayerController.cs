@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask whatIsHazard;
     [SerializeField] private LayerMask whatIsLadder;
     [SerializeField] private float respawnDelay;
+    [SerializeField] private GameObject respawnEffectLocation;
 
     public GameObject checkPoint;
     public GameObject respawnAnimation;
@@ -134,7 +135,7 @@ public class PlayerController : MonoBehaviour
         speed = 0;
         yield return new WaitForSeconds(respawnDelay);
         this.transform.position = checkPoint.transform.position;
-        Instantiate(respawnAnimation, transform.position, transform.rotation);
+        Instantiate(respawnAnimation, respawnEffectLocation.transform.position, respawnEffectLocation.transform.rotation);
         speed = defaultSpeed;
         isDying = false;
         isDead = false;
