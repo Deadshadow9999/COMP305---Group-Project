@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\PlatformManager.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Imports\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
+    <Compile Include="Assets\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\NextLevel.cs" />
     <Compile Include="Assets\Scripts\DestroyEffects.cs" />
@@ -71,7 +72,6 @@
     <Compile Include="Assets\Scripts\CheckPointTrigger.cs" />
     <Compile Include="Assets\Scripts\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
-    <Compile Include="Assets\Scripts\SplashScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

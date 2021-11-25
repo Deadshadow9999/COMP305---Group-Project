@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     private bool isCrouching = false;
     private bool isDying = false;
     private bool isDead = false;
+    private bool isPushing = false;
     private bool isClimbingLadder = false;
     private float defaultSpeed;
 
@@ -106,6 +107,7 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isCrouching", isCrouching);
         anim.SetBool("isDead", isDying);
+        anim.SetBool("isPushing", isPushing);
     }
 
     private bool GroundCheck()
@@ -121,6 +123,7 @@ public class PlayerController : MonoBehaviour
     {
         return Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckRadius, whatIsLadder);
     }
+
     private void Flip()
     {
         Vector3 temp = transform.localScale;
@@ -153,6 +156,22 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Ladder"))
         {
             rBody.gravityScale = 1;
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("PushableObject") && speed > 0)
+        {
+            isPushing = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("PushableObject"))
+        {
+            isPushing = false;
         }
     }
 }
