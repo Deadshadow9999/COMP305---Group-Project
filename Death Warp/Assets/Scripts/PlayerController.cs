@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(RespawnAtCheckPoint());
         }
     }
+
     // Fixed update is called once per frame
     private void FixedUpdate()
     {
@@ -58,9 +59,14 @@ public class PlayerController : MonoBehaviour
         isGrounded = GroundCheck();
         isClimbingLadder = LadderCheck();
 
+        if(isDying)
+        {
+            isDead = true;
+        }
+
         if (Input.GetKey(KeyCode.R))
         {
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         // Crouch code
@@ -135,13 +141,13 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator RespawnAtCheckPoint()
     {
-        speed = 0;
-        yield return new WaitForSeconds(respawnDelay);
-        this.transform.position = checkPoint.transform.position;
-        Instantiate(respawnAnimation, respawnEffectLocation.transform.position, respawnEffectLocation.transform.rotation);
-        speed = defaultSpeed;
-        isDying = false;
-        isDead = false;
+            speed = 0;
+            yield return new WaitForSeconds(respawnDelay);
+            this.transform.position = checkPoint.transform.position;
+            Instantiate(respawnAnimation, respawnEffectLocation.transform.position, respawnEffectLocation.transform.rotation);
+            speed = defaultSpeed;
+            isDying = false;
+            isDead = false;
     }
     void OnTriggerStay2D(Collider2D other)
     {

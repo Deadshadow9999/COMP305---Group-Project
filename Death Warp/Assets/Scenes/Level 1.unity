@@ -451,7 +451,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8649164442685603401, guid: 27ebfd3dd781515438444e1e3583aeaa, type: 3}
       propertyPath: m_Name
-      value: big-crate
+      value: big-crate(2)
       objectReference: {fileID: 0}
     - target: {fileID: 8649164442685603401, guid: 27ebfd3dd781515438444e1e3583aeaa, type: 3}
       propertyPath: m_TagString
@@ -822,7 +822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8649164442685603403, guid: 27ebfd3dd781515438444e1e3583aeaa, type: 3}
       propertyPath: m_Mass
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8649164442685603413, guid: 27ebfd3dd781515438444e1e3583aeaa, type: 3}
       propertyPath: m_RootOrder
@@ -21807,12 +21807,12 @@ AudioSource:
   m_GameObject: {fileID: 1499926009}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 67b2c9de31a741c409c8e3fa5d05221a, type: 3}
+  OutputAudioMixerGroup: {fileID: 143799616987580927, guid: 2864e177a0e8a7b49b39756f623ed5c8, type: 2}
+  m_audioClip: {fileID: 8300000, guid: d8b719ef1c3254c97b2c5b785c2d5fd3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.25
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
