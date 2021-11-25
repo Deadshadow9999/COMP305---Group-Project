@@ -40,7 +40,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -1736336423742163304}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -3614688743124088332}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -137,6 +138,19 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &-3614688743124088332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48194291c8c7c66409dabb36b6dbf832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSFX: {fileID: 8300000, guid: 0fec30152ac5b4a4087caf8f8115b520, type: 3}
 --- !u!1101 &-3539454317095595973
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -223,9 +237,6 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: xSpeed
-    m_EventTreshold: 0.0001
   - m_ConditionMode: 2
     m_ConditionEvent: isPushing
     m_EventTreshold: 0
@@ -326,6 +337,19 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 0
+--- !u!114 &721467255936837490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ba41162a74b0c458b12da1603e2dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runningSFX: {fileID: 8300000, guid: ac523206fef37f54d94ac272b21c9dc0, type: 3}
 --- !u!1101 &1822988185759123917
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -585,7 +609,8 @@ AnimatorState:
   - {fileID: -3539454317095595973}
   - {fileID: -7141459212972709594}
   - {fileID: 4131427250525617836}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 721467255936837490}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
