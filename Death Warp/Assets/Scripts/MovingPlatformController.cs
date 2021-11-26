@@ -23,4 +23,26 @@ public class MovingPlatformController : MonoBehaviour
     {
         movingPlatformActivated = !movingPlatformActivated;
     }
+
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.transform.parent = this.transform;
+
+            if (Input.GetKey(KeyCode.E))
+            {
+                Debug.Log("Switch activated");
+                ToggleMovingPlatform();
+            }
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            other.transform.parent = null;
+        }
+    }
 }

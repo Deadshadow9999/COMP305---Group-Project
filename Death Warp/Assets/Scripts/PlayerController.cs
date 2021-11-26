@@ -6,8 +6,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private MovingPlatformController movingPlatformController;
-
     // Public Variables
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
@@ -23,6 +21,7 @@ public class PlayerController : MonoBehaviour
     public GameObject respawnAnimation;
 
     // Private Variables
+    private GameController gameController;
     private Rigidbody2D rBody;
     private Animator anim;
     private bool isGrounded = false;
@@ -37,6 +36,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameController = GameController.instance;
         anim = GetComponent<Animator>();
         rBody = GetComponent<Rigidbody2D>();
         defaultSpeed = speed;
@@ -143,6 +143,7 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator RespawnAtCheckPoint()
     {
+            gameController.IncrementDeathCounter();
             speed = 0;
             yield return new WaitForSeconds(respawnDelay);
             this.transform.position = checkPoint.transform.position;
@@ -151,21 +152,12 @@ public class PlayerController : MonoBehaviour
             isDying = false;
             isDead = false;
     }
+
     void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Ladder"))
         {
             rBody.gravityScale = 0;
-        }
-
-        if (other.gameObject.CompareTag("PlatformSwitch"))
-        {
-            movingPlatformController = other.transform.parent.GetComponent<MovingPlatformController>();
-
-            if (Input.GetKey(KeyCode.E))
-            {
-                movingPlatformController.ToggleMovingPlatform();
-            }
         }
     }
 
