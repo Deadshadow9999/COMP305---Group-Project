@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private MovingPlatformController movingPlatformController;
+
     // Public Variables
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
@@ -154,6 +156,16 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Ladder"))
         {
             rBody.gravityScale = 0;
+        }
+
+        if (other.gameObject.CompareTag("PlatformSwitch"))
+        {
+            movingPlatformController = other.transform.parent.GetComponent<MovingPlatformController>();
+
+            if (Input.GetKey(KeyCode.E))
+            {
+                movingPlatformController.ToggleMovingPlatform();
+            }
         }
     }
 
