@@ -21,7 +21,7 @@ public class MovingPlatformController : MonoBehaviour
 
     public void ToggleMovingPlatform()
     {
-        movingPlatformActivated = !movingPlatformActivated;
+        movingPlatformActivated = true;
     }
 
     private void OnCollisionStay2D(Collision2D other)
