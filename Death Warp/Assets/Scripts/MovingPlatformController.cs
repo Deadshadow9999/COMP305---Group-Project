@@ -32,7 +32,6 @@ public class MovingPlatformController : MonoBehaviour
 
             if (Input.GetKey(KeyCode.E))
             {
-                Debug.Log("Switch activated");
                 ToggleMovingPlatform();
             }
         }
