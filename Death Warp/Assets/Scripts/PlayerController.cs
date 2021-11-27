@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask whatIsLadder;
     [SerializeField] private float respawnDelay;
     [SerializeField] private GameObject respawnEffectLocation;
+    [SerializeField] private Text tutorialText;
 
     public GameObject checkPoint;
     public GameObject respawnAnimation;
@@ -153,6 +154,33 @@ public class PlayerController : MonoBehaviour
             isDead = false;
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("GemTutorial"))
+        {
+            tutorialText.transform.parent.gameObject.SetActive(true);
+            tutorialText.text = "Gems are valuable and can be collected";
+        }
+
+        if (other.CompareTag("PushableBoxTutorial"))
+        {
+            tutorialText.transform.parent.gameObject.SetActive(true);
+            tutorialText.text = "Boxes can be pushed and used to avoid hazards";
+        }
+
+        if (other.CompareTag("MovingPlatformTutorial"))
+        {
+            tutorialText.transform.parent.gameObject.SetActive(true);
+            tutorialText.text = "Moving platforms can be activated by interacting with the switch";
+        }
+
+        if (other.CompareTag("HazardsTutorial"))
+        {
+            tutorialText.transform.parent.gameObject.SetActive(true);
+            tutorialText.text = "Death is not the end - you will respawn at the last checkpoint";
+        }
+    }
+
     void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Ladder"))
@@ -166,6 +194,30 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Ladder"))
         {
             rBody.gravityScale = 1;
+        }
+
+        if(other.CompareTag("GemTutorial"))
+        {
+                tutorialText.text = null;
+                tutorialText.transform.parent.gameObject.SetActive(false);
+        }
+
+        if (other.CompareTag("PushableBoxTutorial"))
+        {
+            tutorialText.transform.parent.gameObject.SetActive(false);
+            tutorialText.text = null;
+        }
+
+        if (other.CompareTag("MovingPlatformTutorial"))
+        {
+            tutorialText.transform.parent.gameObject.SetActive(false);
+            tutorialText.text = null;
+        }
+
+        if (other.CompareTag("HazardsTutorial"))
+        {
+            tutorialText.transform.parent.gameObject.SetActive(false);
+            tutorialText.text = null;
         }
     }
 
