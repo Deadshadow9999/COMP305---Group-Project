@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     private bool isPushing = false;
     private bool isClimbingLadder = false;
     private float defaultSpeed;
+    private float gravityScale;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,7 @@ public class PlayerController : MonoBehaviour
         gameController = GameController.instance;
         anim = GetComponent<Animator>();
         rBody = GetComponent<Rigidbody2D>();
+        gravityScale = GetComponent<Rigidbody2D>().gravityScale;
         defaultSpeed = speed;
     }
 
@@ -193,7 +195,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ladder"))
         {
-            rBody.gravityScale = 1;
+            rBody.gravityScale = gravityScale;
         }
 
         if(other.CompareTag("GemTutorial"))

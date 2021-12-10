@@ -133,7 +133,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 6200000, guid: 07904ce1b05e7a14d8ee2dd708c678d8, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  jumpForce: 220
+  jumpForce: 280
   groundCheckRadius: 0.15
   groundCheckPosition: {fileID: 7043683919427331276}
   whatIsGround:
@@ -201,6 +201,7 @@ MonoBehaviour:
     m_Bits: 256
   respawnDelay: 2
   respawnEffectLocation: {fileID: 0}
+  tutorialText: {fileID: 0}
   checkPoint: {fileID: 0}
   respawnAnimation: {fileID: 114418852977707076, guid: 8eb27eb48aea19c4088776f494d679d4, type: 3}
 --- !u!82 &3615423097023219405
