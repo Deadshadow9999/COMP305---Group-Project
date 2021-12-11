@@ -16,10 +16,20 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(2);
+    }
+
     public void Controls()
     {
         transform.parent.GetChild(1).gameObject.SetActive(true);
         transform.parent.GetChild(0).gameObject.SetActive(false);
+    }
+
+    public void SwitchToMainMenuScene()
+    {
+        SceneManager.LoadScene(1);
     }
 
     public void BackToMainMenu()
