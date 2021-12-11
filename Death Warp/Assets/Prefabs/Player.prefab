@@ -189,6 +189,8 @@ MonoBehaviour:
   speed: 7
   jumpForce: 280
   groundCheckRadius: 0.15
+  wallJumpingCheckRadius: 0
+  wallJumpingCheckPosition: {fileID: 0}
   groundCheckPosition: {fileID: 7043683919427331276}
   whatIsGround:
     serializedVersion: 2
@@ -199,6 +201,9 @@ MonoBehaviour:
   whatIsLadder:
     serializedVersion: 2
     m_Bits: 256
+  whatIsWallJumping:
+    serializedVersion: 2
+    m_Bits: 0
   respawnDelay: 2
   respawnEffectLocation: {fileID: 0}
   tutorialText: {fileID: 0}

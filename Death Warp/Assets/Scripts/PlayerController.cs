@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private LayerMask whatIsHazard;
     [SerializeField] private LayerMask whatIsLadder;
+    [SerializeField] private LayerMask whatIsWallJumping;
     [SerializeField] private float respawnDelay;
     [SerializeField] private GameObject respawnEffectLocation;
     [SerializeField] private Text tutorialText;
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rBody;
     private Animator anim;
     private bool isGrounded = false;
+    private bool isWallJumping = false;
     private bool isFacingRight = true;
     private bool isCrouching = false;
     private bool isDying = false;
